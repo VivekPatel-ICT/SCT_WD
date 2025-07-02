@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  margin-top: 1rem;
+}
+
+#turn-display {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: #ffffc7;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
+  color: #1a1a2e;
+  background-color: #f1f6f9;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #dcdde1;
+  transition: 0.3s ease-in-out;
+}
+
+#reset-btn, #new-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  background-color: #111;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#msg {
+  color: #faff00;
+  font-size: 6vmin;
+  margin-bottom: 1rem;
+}
+
+.msg-container {
+  height: 20vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
